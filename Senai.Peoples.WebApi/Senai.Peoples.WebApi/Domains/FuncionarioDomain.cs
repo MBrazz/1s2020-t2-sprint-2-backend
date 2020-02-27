@@ -7,7 +7,7 @@ namespace Senai.Peoples.WebApi.Domains
 {
     public class FuncionarioDomain
     {
-        public int IdFuncionario { get; set; }
+        public int IdFuncionarios { get; set; }
 
         public string Nome { get; set; }
 

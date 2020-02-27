@@ -9,6 +9,14 @@ namespace Senai.Peoples.WebApi.Repositories
     interface IFuncionarioRepository
     {
         List<FuncionarioDomain> Listar();
-        
+
+        void Cadastrar(FuncionarioDomain funcionario);
+
+        void AtualizarIdUrl(int id, FuncionarioDomain funcionario);
+
+        void Deletar(int id);
+
+        FuncionarioDomain BuscarPorId(int id);
+
     }
 }
